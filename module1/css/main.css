@@ -91,6 +91,15 @@ section {
     margin-right: 258px;
 }
 
+.menu-item > a {
+    transition: color .5s ease;
+}
+
+.menu-item > a:hover {
+    color: #372E46;   
+    transition: color .5s ease; 
+}
+
 /*offer-section*/
 .offer-section {
     padding-top: 62px;
@@ -124,6 +133,13 @@ section {
     padding: 20px 40px;
     border: none;
     font-size: 20px;
+    cursor:pointer; 
+    transition: .5s ease;
+}
+
+.offer-btn:hover {
+    color: #FF6200;
+    transition: .5s ease;
 }
 
 /*text-section*/
@@ -151,7 +167,7 @@ section {
 
 .line {
     position: absolute;
-    top: 45px;
+    top: 42px;
     left: 50%;
 }
 
@@ -238,5 +254,12 @@ section {
 }
 
 .footer-logo {
-    margin-right: 190px;
+    width: 188px;
+    height: 32px;
+    display: block;
+    margin-right: 95px;
+}
+
+.footer-menu-item > a:hover {
+    color: #FF6200;   
 }
